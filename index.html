@@ -1,46 +1,135 @@
-<body style="font-family:arial;">
-    <header>
-        <h1>Phillip Goldberg</h1>
-        <h3 style="color:	#3b3b3b;">Information Systems Major at Elizabethtown College<br>Class of 2025</h3>
-        <hr>
-    </header>
-    <main>
-        <h3>Classes I have taken at Etown:</h3>
-        <ul>
-            <li>Computer Science II</li>
-            <li>Computer Networking</li>
-            <li>Database Systems</li>
-            <li>Data Structures</li>
-            <li>NPS The Power and Beauty of</li>
-            <li>System Design, Management</li>
-            <li>Computer Security</li>
-            <li>Software Engineering</li>
-            <li>Professional Development Seminar</li>
-            <li>Network Security</li>
-            <li>Web Development</li>
-            <li>Capstone Project in Computing</li>
-            <li>Applications of Generative AI</li>
-            <li>SGPS Introduction to Web Design</li>
-        </ul>
-        <h3>My Favorite TV Shows:</h3>
-        <ol>
-            <li><a style="font-weight:bold;color:black;" href="https://spongebob.fandom.com/wiki/SpongeBob_SquarePants_(character)" target="_blank">SpongeBob SquarePants (1999)</a></li>
-            <li><a style="font-weight:bold;color:black;"href="https://spaceghost.fandom.com/wiki/Space_Ghost_Coast_to_Coast" target="_blank">Space Ghost Coast to Coast (1993)</a></li>
-            <li><a style="font-weight:bold;color:black;"href="https://timanderic.fandom.com/wiki/Tim_and_Eric_Awesome_Show,_Great_Job!" target="_blank">Tim and Eric Awesome Show, Great Job! (2007)</a></li>
-            <li><a style="font-weight:bold;color:black;"href="https://snl.fandom.com/wiki/Saturday_Night_Live_Wiki" target="_blank">Saturday Night Live (1975)</a></li>
-        </ol>
-        <h3>The Sides of My Mind</h3>
-        <span style="font-size:15pt;position:relative; top:-100px;">Happy &nbsp;&nbsp;</span><img style="width:auto; height:200px;" src="img/happy.png"/>
-        <span style="font-size:15pt;position:relative; top:-100px;">Sad &nbsp;&nbsp;</span><img style="width:auto; height:200px;" src="img/sad.png"/>
-        <h3>My Neighbor Kevin Is:</h3>
-        <ul>
-            <li>Fun to be around</li>
-            <li>His parents are chill</li>
-            <li>He's a Good Friend</li>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Phillip Goldberg - Profile</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <h1>Phillip Goldberg</h1><img alt="profile picture of Phillip Goldberg" id="profile-pic" src="img/profile-pic.jpg">
+            <h3 id="major">Information Systems Major at <a target="_blank" id="etown-link" href="https://etown.edu">Elizabethtown College</a><br>Class of 2025</h3>
+            <h4>GPA: 3.50</h4>
+            <p>Looking for summer internship opportunities in <span class="emphasis">Information Technology</span> and <span class="emphasis">Information Systems</span>.</p>
+        </header>
+        <main>
+            <div class="middle-1"></div>
+                <div id="courses-pane" class="lists">
+                    <h3>Career Releavent Courses</h3>
+                        <ul id="first-list">
+                            <li>Computer Science I</li>
+                            <li>Computer Science II</li>
+                            <li>Computer Networking</li>
+                            <li>Database Systems</li>
+                            <li>Data Structures</li>
+                            <li>NPS The Power and Beauty of Computing</li>
+                            <li>System Design, Management</li>
+                            <li>Computer Security</li>
+                            <li>Software Engineering</li>
+                            <li>Professional Development Seminar</li>
+                            <li>Network Security</li>
+                            <li>Web Development</li>
+                            <li>Capstone Project in Computing</li>
+                            <li>Applications of Generative AI</li>
+                            <li>SGPS Introduction to Web Design</li>
+                        </ul>
+                </div>
+            <div id="skills-pane" class="lists">
+                <h3 id="second-list-header">Skills</h3>
+                    <table>
+                        <tr>
+                            <th>Skills</th>
+                            <th>Level</th>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>HTML</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>SQL/Database Systems</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>Linux</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Computer Networking</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Computer and Network Security</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>Java</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Python</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Communication</td>
+                            <td>10</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="projects">
+                    <h3>Projects</h3>
+                    <h4>Food Pantry</h4>
+                    <ul>
+                        <li>Create a food pantry checkout system that tracks food going in and out of the pantry. <br>Gather demographic 
+                            information needed for those administering the food pantry.<br> Make the checkout process easy and 
+                            streamlined.
+                        </li>
+                        <li>
+                            Developed in <span class="emphasis">PHP</span>, <span class="emphasis">HTML</span>, <span class="emphasis">CSS</span>, <span class="emphasis">JavaScript</span>, <span class="emphasis">SQL</span>, and <span class="emphasis"> Modeling</span> using <span class="emphasis">MySQL Workbench</span>.
+                        </li>
+                    </ul>
+                </div>
+                <div id="employment">
+                    <h3>Employment</h3>
+                        <div id="cashier">
+                            <h4>Cashier</h4>
+                            <a target="_blank" class="company-links" href="https://www.thehersheycompany.com/">
+                                <img alt="Hershey Company Icon" id="hershey-icon" src="img/hershey.jpg"></a><a target="_blank" class="company-links" href="https://www.thehersheycompany.com/"><h5 class="job-company">The Hershey Company</h5></a>
+                                <h5 class="header-seperator"> - Part-time</h5>
+                            <h5 class="duration">June 2024 - Present</h5>
+                            <h5>Hershey, Pennsylvania, United States</h5>
+                        </div>
+                    <hr>
+                    <div id="help-desk">
+                        <h4>IT Help Desk Specialist</h4>
+                        <a target="_blank" class="company-links" href="https://mc3.edu">
+                        <img alt="Montgomery Count'Community College Icon" id="montco-icon" src="img/montco.jpg">
+                        <h5 class="job-company">Montgomery County Community College</h5></a><h5 class="header-seperator"> - Student Part-time</h5>
+                        <h5 class="duration">June 2024 - Present</h5>
+                        <h5>Blue Bell, Pennsylvania, United States</h5>
+                        </div>
+                </div>
+            </main>
             
-        </ul>
-    </main>
-    <footer>
-
-    </footer>
-</body>
+        <footer>
+            <span id="copyright">
+                All Rights Reserved - Copyright &copy; 2024
+            </span>
+            <span>
+                <a target="_blank" href="https://www.linkedin.com/in/phillipbryangoldberg/"><img alt="linkedin icon" class="footer-icons" src="img/linkedin.png"></a>
+                <a target="_blank" href="https://etown.edu">
+                    <img alt="Elizabethtown College Icon" class="footer-icons" src="img/etown.png"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/phillipbryangoldberg/">
+                    <img alt="github icon" class="footer-icons" src="img/github.png"></a>
+            </span>
+        </footer>
+    </body>
+</html>

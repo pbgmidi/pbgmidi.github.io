@@ -1,0 +1,201 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(227, 240, 252);
+}
+
+header{
+    margin: auto;
+    width: 700px;
+    background-color: white;
+    padding: 18px;
+}
+
+#profile-pic{
+    height:160px;
+    border-radius: 50%;
+
+}
+
+#major{
+    color:#3b3b3b;;    
+}
+
+.middle-1{
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+#first-list{
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+
+#second-list{
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+
+main{
+    margin: auto;
+    background-color: rgb(191, 235, 220);
+}
+
+.lists{
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#projects{
+    padding-left: 10px;
+    padding-right: 10px; 
+    background-color: rgb(225, 235, 232);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#employment{
+    padding-left: 10px;
+    padding-right: 10px; 
+    background-color: rgb(155, 177, 170);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+#skills-pane{
+    
+}
+#courses-pane{
+    
+}
+
+table{
+    border: 4px solid black;
+    border-collapse: collapse;
+    background-color: rgb(225, 235, 232);;
+}
+
+td{
+    border: 2px solid black;
+    padding: 3px;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height:  0px;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height:  0px;
+}
+
+#hershey-icon{
+    width:50px;
+}
+
+#montco-icon{
+    width:50px;
+}
+
+.job-company{
+    display: inline;
+    padding-left: 5px;
+    font-weight: lighter;
+}
+
+#cashier{
+    background-color: white;
+    padding: 10px;
+}
+
+#help-desk{
+    background-color: rgb(191, 235, 220);
+    padding: 10px;
+}
+
+hr{
+    background-color: rgb(155, 177, 170);
+    border: none;
+    height: 0px;
+}
+
+.emphasis{
+    font-weight: bold;
+}
+
+.duration{
+    font-weight: lighter;
+}
+
+a.company-links{
+    color:black;
+    text-decoration: none;
+}
+
+
+a.company-links:hover{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.company-links:visited{
+    color:black;
+    text-decoration: none;
+}
+
+a#etown-link{
+    color:#3b3b3b;;
+    text-decoration: none;
+}
+
+a#etown-link:hover{
+    color:#3b3b3b;;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a#etown-link:visited{
+    color:#3b3b3b;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: -20px;
+    margin-left:380px;
+    margin-right:380px; 
+    background-color: white;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.footer-icons{
+    height:40px;
+}
+
+#copyright{
+    padding-top: 10px;
+    font-size:14pt;
+    font-weight: lighter;
+    padding-bottom: 18px;
+}
+
+.header-seperator {
+    display: inline;
+}
