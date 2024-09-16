@@ -11,6 +11,8 @@ header{
     width: 700px;
     background-color: white;
     padding: 18px;
+    padding-left:70px;
+    padding-right:70px;
 }
 
 #profile-pic{
@@ -20,7 +22,7 @@ header{
 }
 
 #major{
-    color:#3b3b3b;;    
+    color:#3b3b3b;    
 }
 
 .middle-1{
@@ -28,6 +30,10 @@ header{
     display: flex;
     flex-wrap: wrap;
     width: 500px;
+    flex-direction: row;
+    all: revert;
+    justify-content:center;
+    padding-left: 70px;
 }
 
 #first-list{
@@ -183,6 +189,7 @@ footer{
     background-color: white;
     padding-left:5px;
     padding-right:5px;
+    flex-wrap: wrap;
 }
 
 .footer-icons{
@@ -198,4 +205,8 @@ footer{
 
 .header-seperator {
     display: inline;
+}
+
+#message{
+    font-size: 15px;
 }
