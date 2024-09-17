@@ -183,8 +183,7 @@ td{
 #refresh-button{
     all: unset;
     height: 30px;
-    display: inline-flex;
-    
+    display: inline-flex;   
 }
 
 #resume-container{
