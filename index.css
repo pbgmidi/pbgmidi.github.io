@@ -20,6 +20,7 @@ footer{
     padding-left: 5px;
     padding-right: 5px;
     flex-wrap: wrap;
+    border-style:inset
 }
 
 h4{
@@ -41,6 +42,9 @@ header{
     padding: 18px;
     padding-left: 70px;
     padding-right: 70px;
+    border-style: ridge;
+    border-color: white;
+    border-width: 4px;
 }
 
 hr{
@@ -52,6 +56,9 @@ hr{
 main{
     margin: auto;
     background-color: rgb(191, 235, 220);
+    border-style: ridge;
+    border-color: white;
+    border-width: 4px;
 }
 
 table{
@@ -141,6 +148,10 @@ td{
 
 #hershey-icon{
     width: 50px;
+}
+
+#info-tech{
+    color:rgb(32, 32, 126);
 }
 
 #major{
@@ -256,4 +267,22 @@ a#etown-link:hover{
 a#etown-link:visited{
     color: #3b3b3b;
     text-decoration: none;
+}
+
+/*---------- Contextual Selectors ------------*/
+
+.emphasis:nth-child(even){
+    color:rgb(32, 32, 126);
+}
+
+.emphasis:nth-child(odd){
+    color:rgb(91, 91, 177);
+}
+
+#first-list > li:nth-child(odd){
+    color:rgb(32, 32, 126);
+}
+
+#skills-table tr:nth-child(even){
+    color:rgb(32, 32, 126);
 }
